@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(rgb(1, 18, 26), rgb(1, 112, 107));
+    background-repeat: no-repeat;
+}
+
+.bg-blue {
+    background-color: rgba(1, 18, 26, 0.1)!important;
+}
+
+/* styling jumpotron */
+.jumbotron {
+    color: white;
+    background-color:  rgba(1, 18, 26, 0.2);
+    position: absolute;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+/* middle page container */
+.form_container {
+    max-width: 100%;
+    background-color:  rgba(1, 18, 26, 0.9);
+    padding-bottom: 5%;
+}
+
+.col {
+    padding-top: 3%;
+}
+
+/* button style */
+.shotener-button {
+    padding-top: 0.5%; 
+}
+
+.btn-primary {
+    background-color: rgba(0, 70, 117, 0.9);
+    border: solid rgba(0, 70, 117, 0.9);
+}
+
+h3 {
+    color: white;
+}
+
+.button {
+    width: 50px;
+    background-color: blue;
+}
+
+#particles-js {
+    height: 700px;
+}
