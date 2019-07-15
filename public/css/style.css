@@ -50,3 +50,17 @@ h3 {
 #particles-js {
     height: 700px;
 }
+
+/* footer */
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: gold;
+}
