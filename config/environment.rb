@@ -3,7 +3,7 @@ Bundler.require
 
 ENV['SINATRA_ENV'] ||= "development"
 
-unless EVN['RACK_ENV'] == 'production'
+unless ENV['RACK_ENV'] == 'production'
 require 'dotenv'
 Dotenv.load
 end
